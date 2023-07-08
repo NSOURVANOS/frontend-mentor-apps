@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@500&display=swap');
+
+@media only screen and (max-width: 800px) {
+
+    .card-result-summary-container {
+        background-color: white;
+        margin: 2rem auto;
+    }
+
+    .card-result-container {
+        display: flex;
+        height: 23rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        background: linear-gradient(to bottom,
+                hsl(252, 100%, 67%),
+                hsl(241, 81%, 54%));
+    }
+
+    .card-result-container h2 {
+        color: white;
+        font-family: 'Hanken Grotesk';
+    }
+
+    .card-result-container h3 {
+        color: hsl(241, 100%, 89%);
+        font-family: 'Hanken Grotesk';
+        font-size: 20px;
+        font-weight: 800;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    /* 
+    .card-result-container p {
+        color: hsl(241, 100%, 80%);
+        font-family: 'Hanken Grotesk';
+        width: 70%;
+        text-align: center;
+    } */
+
+    .card-result-grade {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        background: linear-gradient(hsl(241, 81%, 54%),
+                hsla(241, 72%, 46%, 0));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-result-grade-score {
+        color: white;
+        font-family: 'Hanken Grotesk';
+        font-size: 4em;
+        font-weight: 800;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .card-result-grade-total {
+        color: hsl(241, 100%, 78%);
+        font-family: 'Hanken Grotesk';
+        font-size: 18px;
+        margin-top: 6px;
+    }
+
+    .card-result-container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        width: 60%;
+    }
+
+    .card-result-container-footer-title {
+        color: white;
+        font-family: 'Hanken Grotesk';
+        font-size: 30px;
+        font-weight: 700;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .card-result-container-footer-text {
+        color: hsl(241, 100%, 82%);
+        font-family: 'Hanken Grotesk';
+        font-size: 18px;
+        text-align: center;
+        margin-top: 7px;
+    }
+
+
+    .card-summary-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    .summary-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 22rem;
+    }
+
+    .summary-title{
+        font-family: "Hanken Grotesk";
+    }
+
+    .summary-list-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        border-radius: 0.6rem;
+        height: 2.5rem
+    }
+
+    .summary-list-item-left-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .summary-list-item-icon {
+        margin-right: 0.8rem;
+        height: 1.5rem;
+    }
+
+    .summary-list-item-category {
+        font-family: 'Hanken Grotesk';
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .summary-list-item-score {
+        display: flex;
+
+    }
+
+    .summary-list-item-score {
+        display: flex;
+        align-items: center;
+    }
+
+    .summary-list-item-score-val {
+        font-family: 'Hanken Grotesk';
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .summary-list-item-score-total {
+        font-family: 'Hanken Grotesk';
+        font-weight: 700;
+        color: hsl(228, 5%, 59%);
+        font-size: 18px;
+    }
+
+    .summary-continue-button {
+        margin-top: 1.6rem;
+        border-radius: 20rem;
+        padding: 1.25rem;
+        width: 100%;
+        align-self: center;
+        font-family: 'Hanken Grotesk';
+        font-weight: 800;
+        font-size: 20px;
+        color: white;
+        background-color:  hsl(224, 30%, 27%);
+    }
+}
+
+@media only screen and (min-width: 801px) {
+  .card-result-summary-container {
+        width: 50rem;
+        height: 34rem;
+        border-radius: 2rem;
+        display: flex;
+        align-items: center;
+        margin: 2rem auto;
+        /* box-shadow: 10px 10px 10px 10px #f6fcfc; */
+        box-shadow: 10px 10px 30px 10px #e5eef0;
+
+    }
+
+    .card-result-container {
+        display: flex;
+        height: 100%;
+        min-width: 50%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2rem;
+        background: linear-gradient(to bottom,
+                hsl(252, 100%, 67%),
+                hsl(241, 81%, 54%));
+    }
+
+    .card-result-container h2 {
+        color: white;
+        font-family: 'Hanken Grotesk';
+    }
+
+    .card-result-container h3 {
+        margin-top: 2.2rem;
+        color: hsl(241, 100%, 89%);
+        font-family: 'Hanken Grotesk';
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .card-result-grade {
+        margin-top: 0.5rem;
+        height: 13rem;
+        width: 13rem;
+        border-radius: 50%;
+        background: linear-gradient(hsl(241, 81%, 54%),
+                hsla(241, 72%, 46%, 0));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-result-grade-score {
+        color: white;
+        font-family: 'Hanken Grotesk';
+        font-size: 5em;
+        height: 50%;
+        font-weight: 800;
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .card-result-grade-total {
+        color: hsl(241, 100%, 72%);
+        font-family: 'Hanken Grotesk';
+        font-size: 18px;
+        font-weight: 800;
+        height: 50%;
+        margin-top: auto;
+    }
+
+    .card-result-container-footer {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .card-result-container-footer-title {
+        color: white;
+        font-family: 'Hanken Grotesk';
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 0
+    }
+
+    .card-result-container-footer-text {
+        color: hsl(241, 100%, 80%);
+        font-family: 'Hanken Grotesk';
+        font-size: 20px;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 7px;
+    }
+
+
+    .card-summary-container {
+        display: flex;
+        flex-direction: column;
+        min-width: 50%;
+        height: 100%;
+    }
+
+    .summary-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 18rem;
+        padding-left: 2.5rem;
+        padding-right : 2.5rem;
+    }
+
+    .summary-title{
+        font-family: "Hanken Grotesk";
+        font-weight: 800;
+        font-size: 26px;
+        padding: 2rem;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .summary-list-item {
+        display: flex;
+        justify-content: space-between;
+        padding: .6rem;
+        border-radius: 0.6rem;
+        height: 2.5rem
+    }
+
+    .summary-list-item-left-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .summary-list-item-icon {
+        margin-right: 0.8rem;
+        height: 1.5rem;
+    }
+
+    .summary-list-item-category {
+        font-family: 'Hanken Grotesk';
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .summary-list-item-score {
+        display: flex;
+
+    }
+
+    .summary-list-item-score {
+        display: flex;
+        align-items: center;
+    }
+
+    .summary-list-item-score-val {
+        font-family: 'Hanken Grotesk';
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .summary-list-item-score-total {
+        font-family: 'Hanken Grotesk';
+        font-weight: 700;
+        color: hsl(228, 5%, 59%);
+        font-size: 18px;
+    }
+
+    .summary-continue-button {
+        border-radius: 20rem;
+        padding: 1rem;
+        width: 78%;
+        align-self: center;
+        font-family: 'Hanken Grotesk';
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        background-color:  hsl(224, 30%, 27%);
+        margin: auto;
+    }
+
+    .summary-continue-button:hover {
+        cursor: pointer;
+        background-color:  hsl(224, 30%, 37%);
+        color: rgb(227, 229, 253);
+    }
+}

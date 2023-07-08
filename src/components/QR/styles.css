@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800;900&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .card {
+        background-color: white;
+        padding: 1rem;
+        border-radius: 0.8rem;
+        max-width: 20rem;
+        max-height: 32rem;
+        margin: 2rem auto;
+        width: 50rem;
+    }
+
+    .card-title {
+        color: hsl(218, 44%, 22%);
+        font-weight: 800;
+        font-size: 24px;
+        font-family: 'Outfit';
+        text-align: center;
+        width: 100%;
+    }
+
+    .card-text-container {
+        width: 85%;
+        text-align: center;
+        margin: 0 auto; /* Center the container horizontally */
+    }
+
+    .card-text {
+        color: hsl(220, 15%, 55%);
+        text-align: center;
+        font-family: 'Outfit';
+        font-size: 15px;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+
+    .card img {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .card {
+        background-color: white;
+        padding: 1rem;
+        border-radius: 0.8rem;
+        max-width: 18rem;
+        max-height: 30rem;
+        width: 50rem;
+        margin: 2rem auto;
+    }
+
+    .card-title {
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        font-size: 18px;
+        font-family: 'Outfit';
+        width: 80%;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .card-text-container {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto; /* Center the container horizontally */
+    }
+
+    .card-text {
+        color: hsl(220, 15%, 55%);
+        font-family: 'Outfit';
+        font-size: 15px;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+
+    .card img {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 0.8rem;
+    }
+}
